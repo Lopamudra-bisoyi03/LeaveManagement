@@ -142,15 +142,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
-        }
 
-        .package {
-            background: var(--card-bg-color);
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
         }
 
         .package h3 {
@@ -187,6 +179,7 @@
             .apply-leave-btn {
                 margin-top: 10px;
             }
+
         }
     </style>
 </head>
@@ -215,21 +208,6 @@
         <h2>Your Leave Requests</h2>
         <div class="packages-container" id="leave-requests">
             <!-- Leave requests will be dynamically loaded here -->
-            <div class="package">
-                <h3>Leave ID 1</h3>
-                <p><strong>Type:</strong> Annual</p>
-                <p><strong>From:</strong> 01/09/2024</p>
-                <p><strong>To:</strong> 05/09/2024</p>
-                <p><strong>Status:</strong> Approved</p>
-            </div>
-            <div class="package">
-                <h3>Leave ID 2</h3>
-                <p><strong>Type:</strong> Sick</p>
-                <p><strong>From:</strong> 10/09/2024</p>
-                <p><strong>To:</strong> 12/09/2024</p>
-                <p><strong>Status:</strong> Pending</p>
-            </div>
-            <!-- Add more packages as needed -->
         </div>
     </div>
 </div>

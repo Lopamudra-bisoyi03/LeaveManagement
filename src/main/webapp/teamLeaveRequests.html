@@ -11,46 +11,56 @@
             padding: 0;
             background-color: #f0f4f8;
         }
+
         .container {
             width: 80%;
             margin: 20px auto;
             padding: 20px;
             background-color: #ffffff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             text-align: center;
             color: #003366;
             margin-bottom: 20px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }
+
         table, th, td {
             border: 1px solid #ddd;
         }
+
         th, td {
             padding: 12px;
             text-align: left;
         }
+
         th {
             background-color: #003366;
             color: #ffffff;
             font-weight: bold;
         }
+
         tr:nth-child(even) {
             background-color: #f9f9f9;
         }
+
         td {
             background-color: #ffffff;
         }
+
         .action-btns {
             display: flex;
             gap: 10px;
         }
+
         .action-btns button {
             padding: 8px 12px;
             border: none;
@@ -59,22 +69,54 @@
             font-size: 14px;
             font-weight: bold;
             color: #ffffff;
+            transition: background-color 0.3s, opacity 0.3s;
         }
+
         .approve-btn {
             background-color: #4CAF50;
         }
+
         .reject-btn {
             background-color: #f44336;
         }
+
+        .approve-btn:disabled, .reject-btn:disabled {
+            background-color: #9e9e9e;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
         .error {
             color: #d9534f;
             font-weight: bold;
             text-align: center;
             margin-top: 20px;
         }
+
+        .button-group {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-to-dashboard {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid #003366;
+            border-radius: 4px;
+            background-color: #003366;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .back-to-dashboard:hover {
+            background-color: #002244;
+            color: #e0e0e0;
+        }
+
     </style>
-
-
 </head>
 <body>
 
@@ -98,46 +140,82 @@
     </table>
     <div id="error" class="error"></div>
 </div>
+<div class="button-group">
+    <a href="dashboard.html" class="back-to-dashboard">← Back to Dashboard</a>
+</div>
+
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const managerId = 1;
+    document.addEventListener('DOMContentLoaded', function () {
+        // Define handleAction in the global scope
+        window.handleAction = async function (id, action) {
+            console.log("Handling action:", id, action);
+            try {
+                const response = await fetch(`http://localhost:8088/LeaveManagement/fetchTeamLeaves?id=${id}&action=${action}`,
+                    {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
 
-        fetch(`http://localhost:8088/LeaveManagement/fetchTeamLeaves?managerId=${managerId}`)
-            .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok: ' + response.statusText);
                 }
-                return response.json();
-            })
-            .then(data => {
-                const tableBody = document.querySelector('#leaveRequestsTable tbody');
-                tableBody.innerHTML = '';
 
-                data.forEach(leaveRequest => {
-                    const row = document.createElement('tr');
+                fetchTeamLeaves();
+                // Optionally, handle the response or update the UI
+                console.log('Action processed successfully');
+            } catch (error) {
+                console.error('Error updating leave request status:', error);
+            }
+        };
 
-                    row.innerHTML = `
-                    <td>${leaveRequest.employeeId}</td>
-                    <td>${leaveRequest.leaveType}</td>
-                    <td>${leaveRequest.fromDate}</td>
-                    <td>${leaveRequest.toDate}</td>
-                    <td>${leaveRequest.reason}</td>
-                    <td>${leaveRequest.status}</td>
-                    <td class="action-btns">
-                        <button class="approve-btn" onclick="handleAction(${leaveRequest.leaveRequestId}, 'approve')">Approve</button>
-                        <button class="reject-btn" onclick="handleAction(${leaveRequest.leaveRequestId}, 'reject')">Reject</button>
-                    </td>
-                `;
+        function fetchTeamLeaves() {
+            const managerId = 1;
 
-                    tableBody.appendChild(row);
+            fetch(`http://localhost:8088/LeaveManagement/fetchTeamLeaves?managerId=${managerId}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok: ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const tableBody = document.querySelector('#leaveRequestsTable tbody');
+                    tableBody.innerHTML = '';
+
+                    data.forEach(leaveRequest => {
+                        const row = document.createElement('tr');
+
+                        // Disable buttons if status is 'APPROVED' or 'REJECTED'
+                        const isDisabled = leaveRequest.status === 'APPROVED' || leaveRequest.status === 'REJECTED';
+                        const disabledAttribute = isDisabled ? 'disabled' : '';
+
+                        row.innerHTML = `
+                            <td>${leaveRequest.employeeId}</td>
+                            <td>${leaveRequest.leaveType}</td>
+                            <td>${leaveRequest.fromDate}</td>
+                            <td>${leaveRequest.toDate}</td>
+                            <td>${leaveRequest.reason}</td>
+                            <td>${leaveRequest.status}</td>
+                            <td class="action-btns">
+                                <button class="approve-btn" onclick="handleAction(${leaveRequest.leaveRequestId}, '1')" ${disabledAttribute}>Approve</button>
+                                <button class="reject-btn" onclick="handleAction(${leaveRequest.leaveRequestId}, '0')" ${disabledAttribute}>Reject</button>
+                            </td>
+                        `;
+
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    document.getElementById('error').textContent = 'Failed to fetch team leaves: ' + error.message;
                 });
-            })
-            .catch(error => {
-                document.getElementById('error').textContent = 'Failed to fetch team leaves: ' + error.message;
-            });
-    });
+        }
 
+        // Initial fetch of table data
+        fetchTeamLeaves();
+    });
 </script>
 
 </body>

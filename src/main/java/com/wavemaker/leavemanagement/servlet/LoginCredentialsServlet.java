@@ -66,6 +66,7 @@ public class LoginCredentialsServlet extends HttpServlet {
                     request.getSession().setAttribute("leaveRequest", leaveRequest);
                 }
                 response.sendRedirect("dashboard.html");
+
             } else {
                 response.sendRedirect("error.html");
             }

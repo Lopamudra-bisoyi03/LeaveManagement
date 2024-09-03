@@ -26,31 +26,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-//@WebServlet("/managerLeaveApprovalServlet")
-//public class ManagerLeaveApprovalServlet extends HttpServlet {
-//
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        String dbURL = "jdbc:mysql://localhost:3306/leave_management";
-//        String dbUser = "root";
-//        String dbPassword = "password";
-//
-//        try {
-//            Class.forName("com.mysql.cj.jdbc.Driver");
-//            Connection connection = DriverManager.getConnection(dbURL, dbUser, dbPassword);
-//
-//            String sql = "SELECT * FROM leave_applications WHERE status = 'Pending'";
-//            Statement statement = connection.createStatement();
-//            ResultSet resultSet = statement.executeQuery(sql);
-//
-//            request.setAttribute("leaveApplications", resultSet);
-//            request.getRequestDispatcher("managerApproval.jsp").forward(request, response);
-//
-//            connection.close();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-
 
 @WebServlet("/fetchLeaveRequests")
 public class LeaveRequestFetchServlet extends HttpServlet {
@@ -64,14 +39,17 @@ public class LeaveRequestFetchServlet extends HttpServlet {
     }
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("42");
         HttpSession session = request.getSession(false);
         if (session == null || session.getAttribute("email") == null) {
+            System.out.println("45");
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             return;
         }
 
         String email = (String) session.getAttribute("email");
         if (email == null) {
+            System.out.println("52");
             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "No email found in session");
             return;
         }
@@ -81,8 +59,10 @@ public class LeaveRequestFetchServlet extends HttpServlet {
         JSONArray jsonArray = new JSONArray();
 
         try {
+            System.out.println("62");
             Employee employee = employeeService.getEmployeeByEmail(email);
             if (employee == null) {
+                System.out.println("65");
                 response.sendError(HttpServletResponse.SC_NOT_FOUND, "Employee not found");
                 return;
             }

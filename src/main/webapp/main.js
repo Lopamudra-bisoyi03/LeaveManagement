@@ -120,7 +120,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p><strong>To:</strong> ${leave.toDate}</p>
                     <p><strong>Status:</strong> <span class="status status-${leave.status.toLowerCase()}">${leave.status}</span></p>
                 </div>
-                <button class="btn-details">Details</button>
             </div>
         `;
     }
@@ -152,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Function to fetch and display team leaves
-    const managerId = '1'; // This should be dynamic if you're dealing with different managers
+    const managerId = '1';
     async function fetchTeamLeaves() {
         try {
             const response = await fetch(`http://localhost:8088/LeaveManagement/fetchTeamLeaves?managerId=${managerId}`, {

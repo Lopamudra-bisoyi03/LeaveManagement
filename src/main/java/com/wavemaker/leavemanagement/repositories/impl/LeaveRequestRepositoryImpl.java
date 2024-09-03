@@ -180,6 +180,7 @@ public class LeaveRequestRepositoryImpl implements LeaveRequestRepository {
                         resultSet.getString("REASON"),
                         resultSet.getString("STATUS")
                 );
+                leaveRequest.setLeaveRequestId(resultSet.getInt("LEAVE_REQUEST_ID"));
                 leaveRequests.add(leaveRequest);
             }
         } catch (SQLException e) {
@@ -227,7 +228,23 @@ public class LeaveRequestRepositoryImpl implements LeaveRequestRepository {
 
     @Override
     public boolean updateLeaveRequestStatus(int leaveRequestId, String action) {
-        return false;
+        try{
+            Connection connection = DBConnection.getConnection();
+            PreparedStatement ps=connection.prepareStatement("UPDATE LEAVE_REQUEST SET STATUS=? WHERE LEAVE_REQUEST_ID=?");
+            ps.setInt(2, leaveRequestId);
+            if(action.equals("1"))
+            {
+                ps.setString(1, "APPROVED");
+            }
+            else{
+                ps.setString(1, "REJECTED");
+            }
+            ps.executeUpdate();
+        }
+        catch(SQLException E){
+            LOGGER.log(Level.SEVERE, "Error updating leave request status", E);
+        }
+        return true;
     }
 
 

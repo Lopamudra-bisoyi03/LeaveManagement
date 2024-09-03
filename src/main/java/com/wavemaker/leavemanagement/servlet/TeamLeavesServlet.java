@@ -33,29 +33,35 @@ public class TeamLeavesServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("1");
         HttpSession session = request.getSession(false);
-        if (session == null || session.getAttribute("userRole") == null || !"manager".equals(session.getAttribute("userRole"))) {
+        if (session != null && session.getAttribute("isManager") != Boolean.TRUE) {
+            System.out.println("2");
             response.sendError(HttpServletResponse.SC_FORBIDDEN, "You are not authorized to access this page.");
             return;
         }
 
         String managerIdParam = request.getParameter("managerId");
         if (managerIdParam == null || managerIdParam.trim().isEmpty()) {
+            System.out.println("3");
             response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Missing or empty managerId parameter");
             return;
         }
 
         int managerId;
         try {
+            System.out.println("4");
             managerId = Integer.parseInt(managerIdParam);
         } catch (NumberFormatException e) {
+            System.out.println("5");
             response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Invalid managerId format");
             return;
         }
 
         JSONArray jsonArray = new JSONArray();
         try {
-            List<LeaveRequest> leaveRequests = leaveRequestService.getLeaveRequestsForManager(managerId);
+            System.out.println("6");
+            List<LeaveRequest> leaveRequests = leaveRequestService.getLeaveRequestsByManagerId(managerId);
             for (LeaveRequest leaveRequest : leaveRequests) {
                 JSONObject jsonObject = new JSONObject();
                 jsonObject.put("leaveRequestId", leaveRequest.getLeaveRequestId());
@@ -73,6 +79,7 @@ public class TeamLeavesServlet extends HttpServlet {
             out.print(jsonArray.toString());
             out.flush();
         } catch (Exception e) {
+            System.out.println("66");
             LOGGER.log(Level.SEVERE, "Error fetching team leaves", e);
             response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Unable to fetch team leaves: " + e.getMessage());
         }
@@ -120,5 +127,31 @@ public class TeamLeavesServlet extends HttpServlet {
             response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Unable to update leave request status: " + e.getMessage());
         }
     }
+
+    @Override
+    protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession(false);
+        if (session == null || session.getAttribute("managerId") == null || !"manager".equals(session.getAttribute("managerId"))) {
+            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Not authorized to perform this action.");
+        }
+//        String leaveRequestIdParam = request.getParameter("id");
+//        String action = request.getParameter("action");
+//        if (leaveRequestIdParam == null || leaveRequestIdParam.trim().isEmpty()) {
+//            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Missing parameters");
+//            return;
+//        }
+        int leaveRequestId;
+        try {
+            leaveRequestId = Integer.parseInt(request.getParameter("id"));
+            String actionParam = request.getParameter("action");
+            leaveRequestService.updateLeaveRequestStatus(leaveRequestId, actionParam);
+            System.out.println("updateLeaveRequestStatus");
+        } catch (NumberFormatException e) {
+            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Invalid leaveRequestId format");
+
+        }
+
+    }
+
 }
 
