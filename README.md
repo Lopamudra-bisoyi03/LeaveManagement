@@ -19,10 +19,12 @@ Employees can easily apply for different types of leave, and managers can approv
   - Apply for Leave
   - View Applied Leaves and their Status
   - Leave validation during apply for leave(no need to apply for leave on weekends or bank holidays)
+  - Holiday calendar that will showcase the holidays of the current financial year.
+
 - *Manager Login*
   - Approve or Reject Leave Requests
   - View List of Employees and their Leave Summary
-
+  
 ## Installation
 ### Prerequisites
 - Java 11 or higher
@@ -104,7 +106,7 @@ PASSWORD	varchar(200)	NO
 ## Configuration
 - *application.properties*: Set up the database connection, server port, and other configurations.
 - *Custom Validation Rules*: Implement validation rules in both the UI and backend to ensure:
-  - Leave dates are not holidays or weekends.
+ - Leave dates are not holidays or weekends.
 
 ## Testing
 ### Using Postman
