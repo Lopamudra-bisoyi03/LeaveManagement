@@ -125,3 +125,15 @@ PASSWORD	varchar(200)	NO
 3. *Commit Your Changes*: Write clear and concise commit messages.
 4. *Submit a Pull Request*: Explain your changes in detail in the pull request description.
 
+
+## Screenshots
+
+![Start Page](https://github.com/user-attachments/assets/76688e1d-7925-47fc-b17a-f7ca019117aa)
+![Login Page](https://github.com/user-attachments/assets/b1ff368e-3ffe-46a8-b869-61ee65dbac84)
+![DashBoard Page](https://github.com/user-attachments/assets/17b3efc7-4720-4351-8b2c-dea28dfe5185)
+![Apply for Leave](https://github.com/user-attachments/assets/b4966840-3b6a-4d58-a84c-21cefc984f0f)
+![Holiday Calender](https://github.com/user-attachments/assets/e2fe0432-b61d-4d81-9610-4affd36bc186)
+![Team Leaves Page](https://github.com/user-attachments/assets/dcdebd8b-1c91-41c2-bb25-85da44ee05ab)
+![Team Leave (not authorized)](https://github.com/user-attachments/assets/db8d2b28-354b-47ee-b5ad-107eeee10157)
+![Logout Page](https://github.com/user-attachments/assets/0b660462-ca12-4253-b2b0-3818b1425ce2)
+
