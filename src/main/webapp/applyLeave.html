@@ -8,15 +8,16 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
         :root {
-            --primary-color: #636af1;
-            --secondary-color: #4f46e5;
-            --background-color: #f3f4f6;
-            --text-color: #1f2937;
-            --card-bg-color: #ffffff;
-            --input-bg-color: #f9fafb;
-            --input-border-color: #d1d5db;
-            --input-focus-color: #a5b4fc;
-            --button-hover-color: #4338ca;
+            --primary-color: #6366F1;
+            --secondary-color: #4338CA;
+            --background-color: #F3F4F6;
+            --text-color: #1F2937;
+            --card-bg-color: #FFFFFF;
+            --input-bg-color: #F9FAFB;
+            --input-border-color: #D1D5DB;
+            --input-focus-color: #A5B4FC;
+            --button-hover-color: #4338CA;
+            --border-radius: 12px;
         }
 
         body {
@@ -33,12 +34,17 @@
 
         .container {
             width: 100%;
-            max-width: 500px;
+            max-width: 600px;
             background: var(--card-bg-color);
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
             margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
         }
 
         h1 {
@@ -46,7 +52,7 @@
             margin-top: 0;
             margin-bottom: 30px;
             font-weight: 600;
-            font-size: 28px;
+            font-size: 32px;
             text-align: center;
         }
 
@@ -55,18 +61,19 @@
             margin: 15px 0 5px;
             color: var(--text-color);
             font-weight: 500;
+            font-size: 14px;
         }
 
         select,
         input[type="date"],
         textarea {
             width: 100%;
-            padding: 12px;
+            padding: 16px;
             border: 1px solid var(--input-border-color);
-            border-radius: 8px;
+            border-radius: var(--border-radius);
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
-            font-size: 14px;
+            font-size: 16px;
             background-color: var(--input-bg-color);
             transition: border-color 0.3s ease, box-shadow 0.3s ease;
         }
@@ -81,17 +88,17 @@
 
         textarea {
             resize: vertical;
-            min-height: 100px;
+            min-height: 120px;
         }
 
         button {
             background-color: var(--primary-color);
             color: white;
-            padding: 12px 20px;
+            padding: 16px 24px;
             border: none;
-            border-radius: 8px;
+            border-radius: var(--border-radius);
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 500;
             transition: background-color 0.3s ease, transform 0.3s ease;
             width: 100%;
@@ -105,8 +112,7 @@
 
         .button-group {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: center;
             margin-top: 30px;
         }
 
@@ -125,6 +131,10 @@
         @media (max-width: 600px) {
             .container {
                 padding: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
             }
         }
     </style>
@@ -160,8 +170,6 @@
         </div>
     </form>
 </div>
-
 <script src="main.js"></script>
-
 </body>
 </html>

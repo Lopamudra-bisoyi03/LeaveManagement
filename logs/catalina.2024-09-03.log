@@ -3126,3 +3126,56 @@
  java.base/java.lang.Thread.run(Thread.java:1583)
 03-Sep-2024 14:34:20.697 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
 03-Sep-2024 14:34:20.704 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+03-Sep-2024 19:00:18.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+03-Sep-2024 19:00:18.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Sep-2024 19:00:18.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+03-Sep-2024 19:00:18.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+03-Sep-2024 19:00:18.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Sep-2024 19:00:18.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Sep-2024 19:00:18.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Sep-2024 19:00:18.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Sep-2024 19:00:18.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Sep-2024 19:00:18.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+03-Sep-2024 19:00:18.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+03-Sep-2024 19:00:18.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+03-Sep-2024 19:00:18.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+03-Sep-2024 19:00:18.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Sep-2024 19:00:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=62960:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+03-Sep-2024 19:00:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-Sep-2024 19:00:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+03-Sep-2024 19:00:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+03-Sep-2024 19:00:18.520 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+03-Sep-2024 19:00:18.551 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+03-Sep-2024 19:00:19.071 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+03-Sep-2024 19:00:19.095 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1009] milliseconds
+03-Sep-2024 19:00:19.167 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Sep-2024 19:00:19.167 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+03-Sep-2024 19:00:19.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+03-Sep-2024 19:00:20.697 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+03-Sep-2024 19:00:20.768 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Sep-2024 19:00:20.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,643] ms
+03-Sep-2024 19:00:20.834 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+03-Sep-2024 19:00:20.894 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1797] milliseconds
+03-Sep-2024 19:04:48.120 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+03-Sep-2024 19:04:48.135 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Sep-2024 19:04:48.150 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Sep-2024 19:04:48.150 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+03-Sep-2024 19:04:48.158 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+03-Sep-2024 19:04:48.170 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]

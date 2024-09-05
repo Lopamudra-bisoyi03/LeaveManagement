@@ -46,6 +46,20 @@
             align-items: center;
         }
 
+        .nav-button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
         .profile-pic {
             width: 40px;
             height: 40px;
@@ -93,6 +107,19 @@
         .profile-pic:hover .dropdown {
             display: block;
         }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: var(--card-bg-color);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 300px;
+            z-index: 1000;
+        }
+
 
         .container {
             padding: 20px 40px;
@@ -184,14 +211,15 @@
     </style>
 </head>
 <body>
+
 <div class="header">
-    <h1>Dashboard</h1>
+    <h1>Leave Management Overview</h1>
     <div class="nav-buttons">
         <button class="nav-button" onclick="location.href='teamLeaveRequests.html'">Team Leaves</button>
+        <button class="nav-button" onclick="location.href='holidayCalender.html'" id="holidayCalendarBtn">Holiday Calendar</button>
         <div class="profile-pic" id="profilePic">
-            <img src="images/pp.png" alt="Profile Picture">
+            <img src="images/pp2.jpg" alt="Profile Picture">
             <div class="dropdown">
-                <a href="settings.html">Settings</a>
                 <a href="logout.html">Logout</a>
             </div>
         </div>
@@ -204,13 +232,13 @@
         <button class="apply-leave-btn" onclick="location.href='applyLeave.html'">Apply for Leave</button>
     </div>
 
+
     <div class="section">
         <h2>Your Leave Requests</h2>
         <div class="packages-container" id="leave-requests">
             <!-- Leave requests will be dynamically loaded here -->
         </div>
     </div>
-</div>
 <script src="main.js"></script>
 </body>
 </html>

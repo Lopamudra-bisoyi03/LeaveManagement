@@ -1,0 +1,1614 @@
+05-Sep-2024 00:29:32.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 00:29:32.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 00:29:32.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 00:29:32.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 00:29:32.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 00:29:32.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=50735:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 00:29:32.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 00:29:32.238 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 00:29:32.247 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 00:29:32.537 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 00:29:32.555 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [593] milliseconds
+05-Sep-2024 00:29:32.594 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 00:29:32.594 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 00:29:32.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 00:29:34.010 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 00:29:34.074 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 00:29:34.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,521] ms
+05-Sep-2024 00:29:34.129 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 00:29:34.169 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1613] milliseconds
+05-Sep-2024 00:50:49.599 INFO [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveBalanceServlet.doGet Fetching leave balance for email: sahil@yahoo.com
+05-Sep-2024 00:50:49.629 WARNING [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveBalanceServlet.doGet No leave balance found for employee ID: 4
+05-Sep-2024 00:54:59.115 INFO [http-nio-8088-exec-8] com.wavemaker.leavemanagement.servlet.LeaveBalanceServlet.doGet Fetching leave balance for email: sahil@yahoo.com
+05-Sep-2024 00:54:59.137 WARNING [http-nio-8088-exec-8] com.wavemaker.leavemanagement.servlet.LeaveBalanceServlet.doGet No leave balance found for employee ID: 4
+05-Sep-2024 00:54:59.968 INFO [http-nio-8088-exec-6] com.wavemaker.leavemanagement.servlet.LeaveBalanceServlet.doGet Fetching leave balance for email: sahil@yahoo.com
+05-Sep-2024 00:54:59.991 WARNING [http-nio-8088-exec-6] com.wavemaker.leavemanagement.servlet.LeaveBalanceServlet.doGet No leave balance found for employee ID: 4
+05-Sep-2024 01:21:24.034 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:21:24.046 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:21:24.057 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:21:24.057 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:21:24.063 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:21:24.071 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:21:32.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:21:32.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:21:32.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:21:32.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:21:32.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:21:32.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:21:32.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51097:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:21:32.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:21:32.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:21:32.557 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:21:32.830 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:21:32.848 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [511] milliseconds
+05-Sep-2024 01:21:32.886 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:21:32.886 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:21:32.895 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:21:33.989 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:21:34.033 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:21:34.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,186] ms
+05-Sep-2024 01:21:34.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:21:34.123 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1274] milliseconds
+05-Sep-2024 01:22:42.895 SEVERE [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:115)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:23:42.118 SEVERE [http-nio-8088-exec-5] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:115)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:23:47.245 SEVERE [http-nio-8088-exec-8] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:115)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:24:29.272 SEVERE [http-nio-8088-exec-1] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:115)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:24:57.218 SEVERE [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:115)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:28:18.749 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:28:18.764 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:28:18.775 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:28:18.775 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:28:18.782 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:28:18.796 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:28:22.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:28:22.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:28:22.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:28:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:28:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:28:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:28:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:28:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:28:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:28:22.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:28:22.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:28:22.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:28:22.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:28:22.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51214:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:28:22.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:28:22.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:28:22.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:28:22.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:28:22.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:28:23.181 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:28:23.199 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [541] milliseconds
+05-Sep-2024 01:28:23.243 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:28:23.243 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:28:23.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:28:24.395 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:28:24.441 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:28:24.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,236] ms
+05-Sep-2024 01:28:24.494 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:28:24.533 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1332] milliseconds
+05-Sep-2024 01:28:54.880 SEVERE [http-nio-8088-exec-9] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:112)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:29:11.117 SEVERE [http-nio-8088-exec-8] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:112)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:30:25.305 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:30:25.320 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:30:25.329 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:30:25.330 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:30:25.335 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:30:25.358 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:30:28.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:30:28.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:30:28.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:30:28.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:30:28.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:30:28.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:30:28.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:30:28.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:30:28.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:30:28.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:30:28.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51242:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:30:28.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:30:28.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:30:28.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:30:28.977 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:30:28.987 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:30:29.299 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:30:29.320 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [546] milliseconds
+05-Sep-2024 01:30:29.368 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:30:29.368 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:30:29.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:30:30.559 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:30:30.605 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:30:30.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,269] ms
+05-Sep-2024 01:30:30.656 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:30:30.695 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1373] milliseconds
+05-Sep-2024 01:31:05.776 SEVERE [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:112)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:35:25.627 SEVERE [http-nio-8088-exec-1] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:112)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:40:12.226 SEVERE [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:112)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:45:57.255 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:45:57.270 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:45:57.281 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:45:57.281 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:45:57.288 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:45:57.309 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:46:01.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:46:01.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:46:01.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:46:01.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:46:01.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:46:01.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:46:01.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:46:01.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:46:01.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:46:01.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:46:01.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:46:01.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:46:01.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:46:01.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:46:01.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51397:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:46:01.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:46:01.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:46:01.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:46:01.358 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:46:01.373 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:46:01.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:46:01.734 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [572] milliseconds
+05-Sep-2024 01:46:01.785 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:46:01.785 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:46:01.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:46:02.940 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:46:02.996 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:46:03.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,253] ms
+05-Sep-2024 01:46:03.055 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:46:03.094 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1359] milliseconds
+05-Sep-2024 01:46:29.929 SEVERE [http-nio-8088-exec-5] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error processing JSON
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:115)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:48:56.673 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:48:56.686 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:48:56.696 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:48:56.698 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:48:56.703 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:48:56.711 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:49:00.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:49:00.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:49:00.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:49:00.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51426:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:49:00.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:49:00.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:49:00.605 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:49:00.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:49:00.936 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:49:00.959 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [549] milliseconds
+05-Sep-2024 01:49:01.010 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:49:01.010 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:49:01.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:49:02.188 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:49:02.231 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:49:02.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,255] ms
+05-Sep-2024 01:49:02.282 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:49:02.325 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1363] milliseconds
+05-Sep-2024 01:49:28.992 SEVERE [http-nio-8088-exec-5] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:51:06.185 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:51:06.201 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:51:06.211 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:51:06.212 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:51:06.217 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:51:06.231 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:51:10.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:51:10.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:51:10.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:51:10.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:51:10.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:51:10.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:51:10.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:51:10.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:51:10.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:51:10.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:51:10.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:51:10.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:51:10.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:51:10.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51447:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:51:10.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:51:10.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:51:10.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:51:10.142 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:51:10.155 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:51:10.474 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:51:10.492 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [531] milliseconds
+05-Sep-2024 01:51:10.537 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:51:10.537 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:51:10.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:51:11.748 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:51:11.790 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:51:11.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,292] ms
+05-Sep-2024 01:51:11.847 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:51:11.889 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1396] milliseconds
+05-Sep-2024 01:51:37.966 SEVERE [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:53:44.704 SEVERE [http-nio-8088-exec-5] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:55:56.704 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:55:56.722 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:55:56.732 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:55:56.733 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:55:56.738 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:55:56.744 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:56:00.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:56:00.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:56:00.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:56:00.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:56:00.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:56:00.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:56:00.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:56:00.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:56:00.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:56:00.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:56:00.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:56:00.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:56:00.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:56:00.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:56:00.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:56:00.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:56:00.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:56:00.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:56:00.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:56:00.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:56:00.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:56:00.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51487:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:56:00.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:56:00.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:56:00.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:56:00.321 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:56:00.333 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:56:00.624 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:56:00.643 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [507] milliseconds
+05-Sep-2024 01:56:00.692 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:56:00.692 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:56:00.702 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:56:01.884 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:56:01.929 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:56:01.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,274] ms
+05-Sep-2024 01:56:01.981 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:56:02.019 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1374] milliseconds
+05-Sep-2024 01:56:40.105 SEVERE [http-nio-8088-exec-3] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:02.847 SEVERE [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:10.566 SEVERE [http-nio-8088-exec-7] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:12.500 SEVERE [http-nio-8088-exec-8] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:13.056 SEVERE [http-nio-8088-exec-9] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:13.237 SEVERE [http-nio-8088-exec-10] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:13.425 SEVERE [http-nio-8088-exec-1] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:13.606 SEVERE [http-nio-8088-exec-3] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:13.810 SEVERE [http-nio-8088-exec-4] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:14.031 SEVERE [http-nio-8088-exec-2] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:14.231 SEVERE [http-nio-8088-exec-5] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:14.448 SEVERE [http-nio-8088-exec-6] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:58:15.979 SEVERE [http-nio-8088-exec-7] com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost Error submitting leave request
+	com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `com.wavemaker.leavemanagement.model.LeaveRequest` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+		at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+		at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+		at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+		at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+		at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+		at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+		at com.wavemaker.leavemanagement.servlet.LeaveRequestServlet.doPost(LeaveRequestServlet.java:113)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:645)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:716)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1746)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1148)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:59:13.489 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:59:13.504 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 01:59:13.518 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 01:59:13.518 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 01:59:13.523 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:59:13.539 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:59:17.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 01:59:17.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 01:59:17.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:59:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:59:17.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 01:59:17.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51533:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 01:59:17.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 01:59:17.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 01:59:17.238 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 01:59:17.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 01:59:17.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:59:17.585 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [554] milliseconds
+05-Sep-2024 01:59:17.632 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 01:59:17.632 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 01:59:17.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 01:59:18.864 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 01:59:18.918 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 01:59:18.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,325] ms
+05-Sep-2024 01:59:18.972 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 01:59:19.014 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1427] milliseconds
+05-Sep-2024 02:08:48.628 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:08:48.642 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 02:08:48.648 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 02:08:48.648 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 02:08:48.655 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:08:48.662 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:08:52.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 02:08:52.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 02:08:52.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 02:08:52.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 02:08:52.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 02:08:52.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 02:08:52.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 02:08:52.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 02:08:52.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 02:08:52.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 02:08:52.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 02:08:52.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 02:08:52.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 02:08:52.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 02:08:52.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 02:08:52.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51650:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 02:08:52.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 02:08:52.068 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 02:08:52.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 02:08:52.370 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:08:52.390 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [519] milliseconds
+05-Sep-2024 02:08:52.438 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 02:08:52.438 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 02:08:52.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 02:08:53.636 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 02:08:53.683 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 02:08:53.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,288] ms
+05-Sep-2024 02:08:53.743 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:08:53.787 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1396] milliseconds
+05-Sep-2024 02:13:55.468 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:13:55.485 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 02:13:55.494 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 02:13:55.494 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 02:13:55.499 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:13:55.512 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:17:50.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 02:17:50.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 02:17:50.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 02:17:50.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 02:17:50.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 02:17:50.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 02:17:50.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 02:17:50.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 02:17:50.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=51762:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 02:17:50.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 02:17:50.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 02:17:50.102 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 02:17:50.398 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:17:50.415 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [536] milliseconds
+05-Sep-2024 02:17:50.453 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 02:17:50.453 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 02:17:50.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 02:17:51.646 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 02:17:51.694 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 02:17:51.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,282] ms
+05-Sep-2024 02:17:51.749 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:17:51.791 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1374] milliseconds
+05-Sep-2024 02:18:22.874 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:18:22.879 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 02:18:22.889 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 02:18:22.889 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 02:18:22.904 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 02:18:22.920 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 09:45:50.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M24
+05-Sep-2024 09:45:50.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 13:16:30 UTC
+05-Sep-2024 09:45:50.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+05-Sep-2024 09:45:50.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Sep-2024 09:45:50.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2024 09:45:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2024 09:45:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+05-Sep-2024 09:45:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4+8-LTS-274
+05-Sep-2024 09:45:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2024 09:45:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 09:45:50.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\lopamudrab_700055\Downloads\apache-tomcat-11.0.0-M24
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\temp
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\logging.properties
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\lib\idea_rt.jar=52114:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2\bin
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Sep-2024 09:45:50.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Sep-2024 09:45:50.239 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+05-Sep-2024 09:45:50.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+05-Sep-2024 09:45:50.545 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 09:45:50.561 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [594] milliseconds
+05-Sep-2024 09:45:50.606 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Sep-2024 09:45:50.606 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M24]
+05-Sep-2024 09:45:50.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml]
+05-Sep-2024 09:45:51.798 INFO [main] java.util.ArrayList.forEach Name = Leave_Management Ignoring unknown property: value of "DB Connection" for "description" property
+05-Sep-2024 09:45:51.843 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2024 09:45:51.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\lopamudrab_700055\Desktop\IdeaProjects\LeaveManagement\conf\Catalina\localhost\LeaveManagement.xml] has finished in [1,273] ms
+05-Sep-2024 09:45:51.894 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 09:45:51.930 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1368] milliseconds
+05-Sep-2024 09:54:41.326 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 09:54:41.339 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Sep-2024 09:54:41.345 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LeaveManagement] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+05-Sep-2024 09:54:41.346 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LeaveManagement] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+05-Sep-2024 09:54:41.351 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8088"]
+05-Sep-2024 09:54:41.366 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8088"]

@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     const profileIcon = document.getElementById('profile-icon');
     const leaveRequestsContainer = document.getElementById('leave-requests');
     const teamLeavesSection = document.getElementById('team-leaves-section');
@@ -91,6 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(data);
 
             try {
+                console.log("hi");
+                debugger
                 const response = await fetch("http://localhost:8088/LeaveManagement/leaveRequest", {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
@@ -127,6 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to fetch and display leave requests
     async function fetchLeaveRequests() {
         console.log("Fetching leave requests...");
+        debugger;
         try {
             const response = await fetch('http://localhost:8088/LeaveManagement/fetchLeaveRequests', {
                 method: 'GET'
@@ -165,7 +169,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
             if (teamLeavesMessage) {
                 teamLeavesMessage.innerHTML = data.length > 0
-                    ? data.map(createLeaveRequestItem).join('') : 'No team leave information available.';
+                    ? data.map(createLeaveRequestItem).join('')
+                    : 'No team leave information available.';
             }
         } catch (error) {
             console.error('Error fetching team leaves:', error);

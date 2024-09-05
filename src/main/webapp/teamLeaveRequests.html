@@ -118,8 +118,8 @@
 
     </style>
 </head>
-<body>
 
+<body>
 <div class="container">
     <h1>Team Leave Requests</h1>
     <table id="leaveRequestsTable">
@@ -143,7 +143,6 @@
 <div class="button-group">
     <a href="dashboard.html" class="back-to-dashboard">← Back to Dashboard</a>
 </div>
-
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -209,7 +208,7 @@
                     });
                 })
                 .catch(error => {
-                    document.getElementById('error').textContent = 'Failed to fetch team leaves: ' + error.message;
+                    document.getElementById('error').textContent = 'You are not authorized to perform this action. ' ;
                 });
         }
 

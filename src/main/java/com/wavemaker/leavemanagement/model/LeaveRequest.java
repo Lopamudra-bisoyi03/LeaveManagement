@@ -1,6 +1,7 @@
 package com.wavemaker.leavemanagement.model;
 
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class LeaveRequest {
     private int leaveRequestId;
@@ -11,7 +12,11 @@ public class LeaveRequest {
     private String reason;
     private String status;
 
-    // Constructor
+    // No-argument constructor
+    public LeaveRequest() {
+    }
+
+    // Existing constructor
     public LeaveRequest(int employeeId, String leaveType, Date fromDate, Date toDate, String reason, String status) {
         this.employeeId = employeeId;
         this.leaveType = leaveType;
@@ -19,22 +24,6 @@ public class LeaveRequest {
         this.toDate = toDate;
         this.reason = reason;
         this.status = status;
-    }
-
-    public LeaveRequest() {
-
-    }
-
-
-
-    public LeaveRequest(int employeeId, String leaveType, java.sql.Date fromDate, java.sql.Date toDate, String reason, String status) {
-        this.employeeId = employeeId;
-        this.leaveType = leaveType;
-        this.fromDate = fromDate;
-        this.toDate = toDate;
-        this.reason = reason;
-        this.status = status;
-
     }
 
     // Getters and Setters
@@ -94,7 +83,6 @@ public class LeaveRequest {
         this.status = status;
     }
 
-    // toString
     @Override
     public String toString() {
         return "LeaveRequest{" +

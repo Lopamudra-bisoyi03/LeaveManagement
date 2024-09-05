@@ -39,17 +39,14 @@ public class LeaveRequestFetchServlet extends HttpServlet {
     }
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("42");
         HttpSession session = request.getSession(false);
         if (session == null || session.getAttribute("email") == null) {
-            System.out.println("45");
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             return;
         }
 
         String email = (String) session.getAttribute("email");
         if (email == null) {
-            System.out.println("52");
             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "No email found in session");
             return;
         }
@@ -59,10 +56,8 @@ public class LeaveRequestFetchServlet extends HttpServlet {
         JSONArray jsonArray = new JSONArray();
 
         try {
-            System.out.println("62");
             Employee employee = employeeService.getEmployeeByEmail(email);
             if (employee == null) {
-                System.out.println("65");
                 response.sendError(HttpServletResponse.SC_NOT_FOUND, "Employee not found");
                 return;
             }

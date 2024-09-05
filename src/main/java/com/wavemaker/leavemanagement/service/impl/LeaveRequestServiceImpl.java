@@ -2,7 +2,6 @@ package com.wavemaker.leavemanagement.service.impl;
 
 import com.wavemaker.leavemanagement.model.LeaveRequest;
 import com.wavemaker.leavemanagement.repositories.LeaveRequestRepository;
-import com.wavemaker.leavemanagement.repositories.impl.LeaveRequestRepositoryImpl;
 import com.wavemaker.leavemanagement.service.LeaveRequestService;
 
 import java.util.List;
@@ -23,7 +22,7 @@ public class LeaveRequestServiceImpl implements LeaveRequestService {
     }
 
     @Override
-    public void ceateLeaveRequest(LeaveRequest leaveRequest) {
+    public void createLeaveRequest(LeaveRequest leaveRequest) {
         try {
             leaveRequestRepository.addLeaveRequest(leaveRequest);
         } catch (Exception e) {
@@ -109,7 +108,5 @@ public class LeaveRequestServiceImpl implements LeaveRequestService {
             return false;
         }
     }
-
-
 
 }

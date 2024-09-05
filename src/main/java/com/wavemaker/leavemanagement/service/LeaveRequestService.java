@@ -1,7 +1,6 @@
 package com.wavemaker.leavemanagement.service;
 
 import com.wavemaker.leavemanagement.model.LeaveRequest;
-import com.wavemaker.leavemanagement.repositories.LeaveRequestRepository;
 
 import java.util.List;
 
@@ -10,7 +9,7 @@ public interface LeaveRequestService {
 
     void addLeaveRequest(LeaveRequest leaveRequest);
 
-    void ceateLeaveRequest(LeaveRequest leaveRequest);
+    void createLeaveRequest(LeaveRequest leaveRequest);
 
     void updateLeaveRequest(LeaveRequest leaveRequest);
     void deleteLeaveRequest(int leaveRequestId);

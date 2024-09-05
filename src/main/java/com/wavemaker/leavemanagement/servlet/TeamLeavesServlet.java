@@ -33,10 +33,8 @@ public class TeamLeavesServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("1");
         HttpSession session = request.getSession(false);
         if (session != null && session.getAttribute("isManager") != Boolean.TRUE) {
-            System.out.println("2");
             response.sendError(HttpServletResponse.SC_FORBIDDEN, "You are not authorized to access this page.");
             return;
         }
